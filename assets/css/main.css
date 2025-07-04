@@ -1312,6 +1312,9 @@ section,
   padding: 30px;
   height: 100%;
 }
+.doctors .team-member:hover {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
 
 @media (max-width: 468px) {
   .doctors .team-member {
@@ -1323,7 +1326,7 @@ section,
 
 .doctors .team-member .pic {
   overflow: hidden;
-  width: 150px;
+  width: 250px;
   border-radius: 50%;
   flex-shrink: 0;
 }
