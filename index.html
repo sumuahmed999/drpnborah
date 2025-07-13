@@ -1155,11 +1155,20 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
+    <script>
+      window.addEventListener("load", () => {
+        const preloader = document.getElementById("preloader");
+        if (preloader) {
+          preloader.style.display = "none";
+        }
+      });
+    </script>
+
     <!-- Load after page ready -->
-    <script
+    <!-- <script
       defer
       src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
-    ></script>
+    ></script> -->
     <script defer src="assets/vendor/aos/aos.js"></script>
     <script defer src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script
